@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssm_tunneler"
+version = "0.0.2"
+description = "ssm_tunneler es una biblioteca diseñada para simplificar la apertura de túneles SSH a través de AWS Systems Manager (SSM). Este paquete permite a los desarrolladores y administradores de sistemas establecer conexiones seguras a instancias EC2 en entornos de AWS sin necesidad de exponer públicamente las instancias."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Fernando Nicolás Carrillo López", email = "pandasoncode@gmail.com" },
+]
+dependencies = ["boto3"]
+requires-python = ">=3.12.2"
+
+[project.urls]
+Homepage = "https://github.com/pandasoncode/aws-ssm-tunneler"
